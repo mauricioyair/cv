@@ -48,6 +48,7 @@
   }
 
   footer {
+    display: block;
     background: #fdfdfd;
     border-top: 1px solid #eee;
     position: fixed;
@@ -63,6 +64,12 @@
     animation: linear 0.3s fadeIn;
     animation-timeline: --revealing;
     animation-range: entry 100% cover 10%;
+  }
+
+  @media (width <= 700px) {
+    footer {
+      display: none;
+    }
   }
 
   kbd {
