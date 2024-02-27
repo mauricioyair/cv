@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Mauricio Yair Chávez Fuentes",
-    "label": "Ingeniero en Software especializado en Desarrollo Web FrontEnd",
+    "label": "Ingeniero en Software especializado en Desarrollo Web",
     "image": "https://avatars.githubusercontent.com/u/35882034?v=4",
     "email": "yairchavez555@gmail.com",
     "phone": "+5214424652866",
     "url": "",
-    "summary": "Activamente en búsqueda de una oportunidad como Desarrollador Web, aprovechando mi sólida formación. Me destaco por mi enfoque organizado y mi curiosidad innata por comprender el funcionamiento interno de las tecnologías. Estoy comprometido con el aprendizaje continuo y emocionado por contribuir con mi experiencia al desarrollo de proyectos innovadores.",
+    "summary": "Activamente me encuentro en búsqueda de una oportunidad como Desarrollador Web, aprovechando mi sólida formación. Me destaco por mi enfoque organizado y mi curiosidad innata por comprender el funcionamiento interno de las tecnologías. Estoy comprometido con el aprendizaje continuo y emocionado por contribuir con mi experiencia al desarrollo de proyectos innovadores.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,22 +27,7 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Freelance",
-      "position": "Desarrollador Web Frontend",  
-      "badges": ["Remoto"],
-      "url": "",
-      "startDate": "2022-11-30",
-      "endDate": null,
-      "summary": [        
-        "Creación de temas personalizados en WordPress con Underscores, y herramientas como Elementor y Gutenberg para editar y gestionar la información de forma intuitiva y eficiente, sin necesidad de conocimientos técnicos.",       
-        "Implementación de mejores prácticas de rendimiento en el frontend",
-        "Configuración de plugins y seguridad",
-        "Experiencia en el despliegue, asegurando la disponibilidad y rendimiento en entornos de servidores compartidos"
-      ],
-      "highlights": ["WordPress", "Woocommerce" ,"Shopify"]
-    },
+  "work": [    
     {
       "name": "IW Innovation Workshop",
       "position": "Desarrollador WordPress SSR",  
@@ -51,11 +36,13 @@
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
       "summary": [
-        "Implementación completa de páginas web informativas y tiendas en línea en Woocommerce y Shopify de diferentes sectores",
-        "Personalización y creación de componentes para satisfacer requisitos específicos",
-        "Diseño responsivo",
-        "Integraciones con pasarelas de pago para ecommerce",
-        "Mantenimiento y soporte continuo para páginas web en producción",        
+        "Implementación completa de páginas web informativas y tiendas en línea en WooCommerce y Shopify",
+        "Creación de temas y plug-ins para cumplir con los requisitos del sitio web.",
+        "Capacitación y apoyo a los creadores y administradores de contenido para usar WordPress de manera efectiva",
+        "Experiencia en el despliegue en entornos de servidores compartidos",
+        "Desarrollo de Landing page y estructura de correos electrónicos",
+        "Integraciones con pasarelas de pago para E-commerce",
+        "Mantenimiento y soporte continuo de sitio en producción",        
         "Uso de GIT para el control de versiones",
         "Metodología Waterfall"
       ],
@@ -69,9 +56,10 @@
       "startDate": "2019-03-01",
       "endDate": "2020-06-01",
       "summary": [
-        "Desarrollo de páginas web en WordPress",
-        "Uso de constructores visuales, Elementor, WP Backery, Gutenberg",
-        "Optimización y rendimiento para motores de búsqueda Google(SEO)"
+        "Desarrollo de páginas web en WordPress CMS",
+        "Uso de constructores visuales de maquetación, Elementor, WP Backery, Gutenberg",
+        "Optimización y configuración de WordPress para el rendimiento, seguridad y SEO",
+        "Monitorización de tráfico en Google Analytics y Google Search Console"
       ],
       "highlights": ["WordPress", "SEO", "Elementor"]
     }    
@@ -198,12 +186,7 @@
       "name": "GitHub",
       "level": "",
       "keywords": []
-    },   
-    {
-      "name": "Netlify",
-      "level": "",
-      "keywords": []
-    }   
+    }
   ],
   "softskills": [
     {
@@ -248,7 +231,7 @@
     {
       "name": "Portafolio",
       "isActive": true,
-      "description": "Portafolio de proyectos personales y de Freelance aquí no se incluyen los proyectos de experiencia laboral",
+      "description": "Portafolio de proyectos personales y de Freelance aquí no incluyo los proyectos de experiencia laboral",
       "highlights": ["Astro","Tailwind"],
       "url": "https://mauricioyair.github.io/portafolio/",
       "github": "https://github.com/mauricioyair/portafolio"

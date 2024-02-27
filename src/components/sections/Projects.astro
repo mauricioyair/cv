@@ -31,12 +31,7 @@ import { projects } from "@cv"
                     )}
                   </h3>
                   <p>{description}</p>
-                </header>
-                <footer>
-                  {highlights.map((highlight) => {
-                    return <span>{highlight}</span>
-                  })}
-                </footer>
+                </header>                
               </article>
               <article class="print">
                 <header>
@@ -46,12 +41,7 @@ import { projects } from "@cv"
                     {github && (<GitHub />)}
                   </h3>
                   <p>{description}</p>
-                </header>
-                <footer>
-                  {highlights.map((highlight) => {
-                    return <span>{highlight}</span>
-                  })}
-                </footer>
+                </header>                
               </article>
             </li>
           )
