@@ -3,16 +3,51 @@ import Section from "../Section.astro"
 
 import { hardskills } from "@cv"
 
+import Node from "@/icons/Node.astro"
+import Git from "@/icons/Git.astro"
+import MySQL from "@/icons/MySQL.astro"
+import HTML from "@/icons/HTML.astro"
+import JavaScript from "@/icons/JavaScript.astro"
+import CSS from "@/icons/CSS.astro"
+import Tailwind from "@/icons/Tailwind.astro"
+import React from "@/icons/React.astro"
+import WordPress from "@/icons/WordPress.astro"
+import PHP from "@/icons/PHP.astro"
+import Bootstrap from "@/icons/Bootstrap.astro"
+import Figma from "@/icons/Figma.astro"
+import Angular from "@/icons/Angular.astro"
+import Mongo from "@/icons/Mongo.astro"
+import TypeScript from "@/icons/TypeScript.astro"
 
+const SKILLS_ICONS: Record<string, any> = {  
+  Node,
+  Git,
+  MySQL,
+  HTML,
+  JavaScript,
+  CSS,
+  Tailwind,
+  React,
+  WordPress,
+  PHP,
+  Bootstrap,
+  Figma,
+  Angular,
+  Mongo,
+  TypeScript
+}
 ---
 
 <Section title="Hard Skills">
   <ul>
     {
-      hardskills.map(({ name }) => {       
+      hardskills.map(({ name }) => {  
+        const iconName = name === "Next.js" ? "Next" : name
+        const Icon = SKILLS_ICONS[iconName]
+
         return (
           <li>
-            <span>{name}</span>
+            {Icon && <Icon />} <span>{name}</span>
           </li>
         )
       })
@@ -28,7 +63,10 @@ import { hardskills } from "@cv"
   }
 
   li {
+    display: flex;
+    gap: 4px;
     border-radius: 6px;
+    align-items: center;
     background: #eee;
     color: #444;
     font-size: 0.8rem;
