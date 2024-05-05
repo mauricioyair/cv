@@ -14,12 +14,16 @@ const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
 }
-const printInfo = [email, phone].filter(Boolean).join(" | ")
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const linkedUrl = linkedInfo?.url
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+
 ---
 
 <Section>
   <div class="container">    
-    <figure class="no-print">
+    <figure>
       <img src={image} alt={name} />
     </figure>
 
@@ -104,8 +108,8 @@ const printInfo = [email, phone].filter(Boolean).join(" | ")
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 140px;
-    border-radius: 16px;
+    width: 120px;
+    border-radius: 50%;
   }
 
   span {
